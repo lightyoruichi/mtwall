@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, ul, li	{margin:0px; padding:0px;}
+
+a img {border:0}
+
+body	{
+	background:url(../img/body_bg.png);
+	color:#000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+}
+
+.wrap1090	{
+	width:1090px;
+	margin:0 auto;
+	background:url(../img/wrap1090_bg.png) no-repeat top center;
+}
+
+.head	{
+	width:960px;
+	margin:0 auto;
+	background:url(../img/head_bg.png) no-repeat top center;
+	height:150px;
+}
+
+.tophead 	{
+	width:245px;
+	padding-top:12px;
+	float:right;
+	text-align:center;
+	color:#Fc3;
+}
+.tophead a	{color:#FFF; text-decoration:underline;}
+
+#twitter	{float:left; margin-right:65px;}
+#delicious	{float:left;}
+#loader		{clear:both;}
+
+
+.mt-item	{
+	width:960px;
+	height:120px;
+	background:url(../img/tweet_bg.png) no-repeat top right;
+	clear:both;
+	margin:0 auto;
+	font-family:"Courier New", Courier, monospace;
+}
+
+.mt-item img	{
+	float:left;
+	background:url(../img/avatar_bg.png) no-repeat top;
+	padding:21px 5px 5px 5px;
+}
+
+.mt-item h2	{color:#Fc3; font-size:14px; padding:25px 10px 10px 20px; font-weight:normal; margin:0px; margin-left:80px;}
+.mt-item div	{float:right; color: #FC3; font-size:12px; padding-right:50px; padding-top:3px; font-weight:bold;}
+.mt-item a		{color:#fff; text-decoration:underline;}
+.mt-item p		{line-height:0px; margin:0px; clear:both;}
+.mt-item a:hover	{color:#FC3;}
+
+.footer		{
+	width:960px;
+	height:280px;
+	margin:0 auto;
+	background:url(../img/pata_bg.png) no-repeat top center;
+}
+
+.footer p	{padding-top:225px; text-align:right; padding-right:65px; color:#FFF;}
+.footer a		{color:#FC3;}
+.footer a:hover	{color:#FFF;}
+
+.profileimg {height:48px;width:48px;}

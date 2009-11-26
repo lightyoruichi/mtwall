@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Mechatweet Wall is here to watch topics for you and your pages" />
+		<meta name="keywords" content="twitter, twitterwall, tweety, tweetwall, retweet" />
+		<meta name="author" content="Martin Maly, http://www.mechatweet.com/" />
+		<meta name="design" content="Ondra Cizek" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="cs" />
+
+		<link href="{{canonical}}" rel="canonical" />
+		<link href="{{tpl_path}}css/style.css" rel="stylesheet" type="text/css" />
+		<link href="{{tpl_path}}img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="{{tpl_path}}js/application.js"></script>
+		
+		<title>{{title}}</title>
+	</head>
+
+<!--	
+	<body>
+	
+	
+	  <div class="mechatweet-wall"><div class="mt-padding">
+	  
+  		<div class="mt-head">
+  			<a href="http://www.mechatweet.com/wall" title="" class="mt-logo">Mechatweet Wall</a>
+  
+  		  <p class="mt-summary">... &nbsp; Téma: <a href="http://search.twitter.com/search?q=%2320+OR+%231989+OR+%231711+OR+listopad+OR+listopadu+OR+%23velvetrevolution+OR+"velvet+revolution"+-clinic" title="#20 OR #1989 OR #1711 OR listopad OR listopadu OR #velvetrevolution OR "velvet revolution" -clinic">{{theme}}</a>: &nbsp;
+          <strong id="mt-twitter">0</strong> retweetů &nbsp;
+          <strong id="mt-delicious">0</strong> odkazů na Delicious
+        </p>
+        
+        <p class="mt-right">
+          <span id="mt-loader"></span>  
+    		  <a href="http://twitter.com/home/?status=RT+%40tweetmeme+Listopad+89+na+Twitteru+http%3A%2F%2Fjdem.cz%2Fckrj9 " title="Retweetnout">Retweet</a>&nbsp;&nbsp;
+          <a href="http://delicious.com/post?url={{canonicalURL}}" title="Přidat do Delicious">Delicious</a>
+  		  </p>
+  		  
+  		</div>
+  		
+  		<div class="mt-wall">
+  		</div>
+-->
+	<body>
+    <div class="wrap1090">
+		<div class="head">
+			<div class="tophead">
+				<div id="twitter"><p><strong id="mt-twitter">0</strong></p><span>tweetů</span><br /><a href="http://twitter.com/home/?status=RT+%40tweetmeme+Mechatweet+wall+http%3A%2F%2Fwww.mechatweet.com" title="ReTweet this">Retweet</a></div>
+				<div id="delicious"><p><strong id="mt-delicious">0</strong></p><span>odkazů</span><br /><a href="http://delicious.com/post?url={{canonicalURL}}" title="Přidat do Delicious">Uložit</a></div>
+			</div>
+			
+			
+
+			
+			<a href="http://www.mechatweet.com" class="logo">
+			<img src="{{tpl_path}}img/logo.png" width="350" height="150" alt="Mechatweet" border="0" /> </a>
+            
+            <p id="loader"></p>
+            
+		</div>
+		
+		<div class="mt-wall">
+		</div>
+		
+		
+		<div class="footer">
+        	<p>
+			<span>
+			Mechatweet Wall for you is available under terms of the New BSD license
+			</span><br />
+			<strong>Mechatweet Wall</strong> is inspired by <a href="http://twitter.com/wpSEO" id="portfolio">Sergej Müller</a>'s wpTweet
+            </p>
+		</div>
+
+	</div>	
+	</body>
+</html>

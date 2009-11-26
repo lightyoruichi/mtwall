@@ -1,0 +1,42 @@
+*{border:0;margin:0;padding:0;outline:0;}
+html{background:#d3ecf9;}
+body{padding:5% 10%;}
+
+
+
+div.mechatweet-wall{width:auto;_width:960px/*fixed width for ie6*/;max-width:1000px;;position:relative;margin:0 auto;font:12px/18px "Trebuchet MS","Geneva CE",lucida,sans-serif;color:#343434;background:#cbe7f5;border:1px solid #bcddee;}
+div..mechatweet-wall *{border:0;margin:0;padding:0;outline:0;}
+div.mt-padding{padding:10px 14px;}
+
+div.mechatweet-wall a{color:#3b89b2;text-decoration:none;}
+div.mechatweet-wall a:hover{color:#cb6d12 !important;text-decoration:underline;}
+.mt-right{float:right;}
+
+div.mt-head a.mt-logo{position:absolute;top:-20px;left:7px;display:block;width:80px;height:57px;background:url(../img/mechatweet-logo.png) no-repeat;text-indent:-9999px;}
+.mt-head p.mt-summary{position:absolute;left:85px;color:#7baec7;font:italic 14px/21px Georgia,"New York CE",utopia,serif;}
+.mt-head .mt-right{position:relative;font-size:10px;line-height:21px;text-transform:uppercase;}
+.mt-head .mt-right a{color:#67b8e1;}
+#mt-loader{position:absolute;top:2px;left:-30px;width:16px;height:16px;display:none;background:url(../img/loader.gif) no-repeat;}
+
+div.mt-wall{clear:both;padding:16px 0 10px 0;=zoom:1;}
+div.mt-item{min-height:24px;_height:24px;position:relative;margin:0 0 8px 26px;padding:0 90px 0 0;_padding:0 100px 0 0;background:#dbf0fa;}
+.mt-item:hover{background:#e3f6ff;}
+.mt-item img{width:24px;height:24px;position:absolute;left:-26px;}
+.mt-item p{padding:3px 0 3px 6px;cursor:default;}
+.mt-item strong{color:#333333;padding:0 2px 0 0;}
+.mt-item .mt-action{position:absolute;right:8px;top:0;text-transform:uppercase;font-size:10px;}
+ .mt-item:hover .mt-action{background:#e3f6ff;}
+.mt-item .mt-action span{color:#7baec7;padding:0 0 0 8px;}
+ .mt-item:hover .mt-action span{color:#5486a0;}
+.mt-item .mt-action a{visibility:hidden;_visibility:visible;display:block;float:left;color:#7d919c;}
+ .mt-item:hover .mt-action a{visibility:visible;}
+  .mt-item .mt-action a:hover{text-decoration:none;}
+ .mt-item .mt-action a.re{width:10px;height:11px;margin:3px 6px 0 4px;_overflow:hidden;background:url(../img/reply.png) 0 0 no-repeat;text-indent:-9999px;}
+  .mt-item .mt-action a.re:hover{background-position:0 -11px;}
+
+.mt-updated{display:none;}
+div.mt-marked{background:#e4f5fd;}
+div.mt-marked:hover,div.mt-marked:hover .mt-action{background:#effaff;}
+
+p.mt-footer {font-size:10px;text-transform:uppercase;color:#7baec7;}
+p.mt-footer a{color:#67b8e1;}

@@ -73,7 +73,7 @@ foreach ($el as $id=>$e) {
 	
 	$text = $e['text'];
 	
-	$text = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', '<a href="$1">$1</a>', $text);
+	$text = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\-.]*(\?\S+)?)?)?)@', '<a href="$1">$1</a>', $text);
 	$text = preg_replace('/\#([a-zA-Z0-9]+)/is', '<a href="http://search.twitter.com/search?q=%23${1}">#${1}</a>', $text);
 	//$text = preg_replace('/\#([a-zA-Z0-9]+)/is', 'drek', $text);
 	$e['text'] = $text;

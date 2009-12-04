@@ -1,4 +1,4 @@
-Software License Agreement (BSD License)
+Software License Agreement (BSD No Whining license)
 
 Copyright (c) 2009, Martin Maly (maly.cz)
 All rights reserved.
@@ -16,6 +16,9 @@ are permitted provided that the following conditions are met:
 * Neither the name of mechatweet.com nor the names of its contributors may be
   used to endorse or promote products derived from this software without
   specific prior written permission from mechatweet.com.
+ 
+* You will not to whine about this product and respect the author doesn't want
+  to be bothered with any kind of questions or "advices" to this product.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
